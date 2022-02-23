@@ -1,0 +1,8 @@
+.tab__item {
+  box-shadow: var(--clr-box-shadow);
+}
+.tab__item + .tab__item {
+  margin-left: 15px;
+}
+
+/*# sourceMappingURL=Tab.css.map */

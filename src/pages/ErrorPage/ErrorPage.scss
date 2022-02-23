@@ -1,0 +1,14 @@
+.errorPage {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 60px;
+    }
+}

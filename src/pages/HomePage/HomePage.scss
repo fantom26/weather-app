@@ -1,0 +1,9 @@
+.home {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}

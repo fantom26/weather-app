@@ -1,0 +1,117 @@
+.popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 20;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+
+    &.show {
+        opacity: 1;
+        visibility: visible;
+        transition: opacity 0.3s, visibility 0.3s;
+
+        .popup__content {
+            opacity: 1;
+            transform: translateY(0);
+            transition: transform 0.3s, opacity 0.3s;
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+        min-height: 100%;
+    }
+
+    &__content {
+        position: relative;
+        padding: 30px;
+        width: 100%;
+        max-width: 850px;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        background-color: var(--clr-default-100);
+        opacity: 0;
+        transform: translateY(-100%);
+        transition: transform $ms, opacity $ms;
+    }
+
+    &__inner {
+        flex: 0 1 27%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__close {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        max-width: 25px;
+
+        svg {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            transition: transform $ms;
+        }
+
+        @media (hover) {
+            &:hover {
+                svg {
+                    transform: rotate(30deg);
+                    transition: transform $ms;
+                }
+            }
+        }
+    }
+
+    .thisDayInfo__list {
+        flex: 0 1 60%;
+        font-size: 14px;
+    }
+
+    .thisDayInfo__indicator {
+        min-width: 95px;
+    }
+
+    &__day {
+        &-temp {
+            font-weight: 500;
+            font-size: 60px;
+            color: var(--clr-primary-400);
+        }
+
+        &-value {
+            font-size: 25px;
+        }
+
+        &-img {
+            max-width: 55px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+
+            svg {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+
+        &-time,
+        &-town {
+            font-size: 16px;
+            line-height: 110%;
+            color: var(--clr-default-300);
+        }
+    }
+}

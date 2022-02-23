@@ -1,0 +1,33 @@
+:root {
+    --clr-default-100: #fff;
+    --clr-default-300: #939cb0;
+    --clr-primary-100: rgba(71, 147, 255, 0.2);
+    --clr-primary-400: #4793ff;
+    --clr-default-900: #000;
+    --clr-box-shadow: 2px 5px 25px rgba(180, 180, 180, 0.25);
+
+    //body-background
+    --body-background-dark: #0d1117;
+    --body-background-light: #fff;
+    --body-background-default: #fff;
+
+    //components-background
+    --components-background-dark: #4f4f4f;
+    --components-background-light: #fff;
+    --components-background-default: #fff;
+
+    //card-background
+    --card-background-dark: #2e3035;
+    --card-background-light: rgba(71, 147, 255, 0.2);
+    --card-background-default: rgba(71, 147, 255, 0.2);
+
+    //card-shadow
+    --card-shadow-dark: 0px 3px 20px rgba(5, 5, 5, 0.28);
+    --card-shadow-light: 0px 3px 20px rgba(147, 144, 144, 0.28);
+    --card-shadow-default: 0px 3px 20px rgba(147, 144, 144, 0.28);
+
+    //text
+    --text-color-dark: #fff;
+    --text-color-light: #000;
+    --text-color-default: #000;
+}

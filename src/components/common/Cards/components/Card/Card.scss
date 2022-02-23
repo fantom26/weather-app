@@ -1,0 +1,58 @@
+.card {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--card-background-default);
+    cursor: pointer;
+
+    @media (hover) {
+        &:hover {
+            box-shadow: var(--card-shadow-default);
+        }
+    }
+
+    &__day {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+    }
+
+    &__date {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 120%;
+        color: var(--clr-default-300);
+    }
+
+    &__img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 48px;
+
+        svg {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    &__temp {
+        &--day {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 120%;
+        }
+
+        &--night {
+            font-size: 14px;
+            line-height: 110%;
+            color: var(--clr-default-300);
+        }
+    }
+
+    &__text {
+        margin-top: 5px;
+        font-size: 14px;
+        line-height: 110%;
+        color: var(--clr-default-300);
+    }
+}

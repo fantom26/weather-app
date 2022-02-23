@@ -1,0 +1,46 @@
+.thisDay {
+    padding: 20px;
+    flex: 0 1 33%;
+    box-shadow: var(--clr-box-shadow);
+    border-radius: 20px;
+    background-color: var(--components-background-default);
+
+    &__top {
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__value {
+        font-weight: 500;
+        font-size: 95px;
+        color: var(--clr-primary-400);
+    }
+
+    &__day {
+        font-size: 40px;
+        line-height: 125%;
+    }
+
+    &__img {
+        margin-left: 15px;
+        max-width: 120px;
+
+        svg {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+    &__time, &__town {
+        font-size: 25px;
+        line-height: 120%;
+        color: var(--clr-default-300);
+    }
+
+    &__town {
+        margin-top: 15px;
+    }
+}
