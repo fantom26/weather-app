@@ -1,4 +1,5 @@
-import {Container} from "../../components/ui/Container/Container";
+// UI
+import {Container} from "../../components/ui/";
 
 export const MonthStatisticsPage = () => {
   return (

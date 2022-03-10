@@ -1,9 +1,8 @@
-import {Container} from "../../components/ui/Container/Container";
-import {ThisDay} from "../../components/common/ThisDay/ThisDay";
-import {ThisDayInfo} from "../../components/common/ThisDayInfo/ThisDayInfo";
-import {Popup} from "../../components/ui/Popup/Popup";
-import {Tabs} from "../../components/common/Tabs/Tabs";
-import {Cards} from "../../components/common/Cards/Cards";
+// UI
+import {Container, Popup} from "../../components/ui/";
+
+// Common
+import {ThisDay, ThisDayInfo, Tabs, Cards} from "../../components/common/";
 
 export const HomePage = () => {
 

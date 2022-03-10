@@ -1,28 +1,30 @@
 .tabs {
-    margin-top: 25px;
+  margin-top: 25px;
 
-    &__wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-    &__list {
-        display: flex;
-        align-items: center;
-    }
+  &__list {
+    display: flex;
+    align-items: center;
+  }
 
-    &__cancel {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-        padding-left: 15px;
-        padding-right: 15px;
-        min-height: 35px;
-        min-width: 140px;
-        box-shadow: var(--clr-box-shadow);
-        color: var(--text-color-default);
-    }
+  &__cancel {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 35px;
+    min-width: 140px;
+    border-radius: 5px;
+    box-shadow: var(--clr-box-shadow);
+    color: var(--text-color-default);
+    background-color: var(--components-background-default);
+  }
 }

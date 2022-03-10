@@ -1,20 +1,22 @@
 .tab {
 
-    &__btn {
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-        padding-left: 15px;
-        padding-right: 15px;
-        min-height: 35px;
-        min-width: 140px;
-        box-shadow: var(--clr-box-shadow);
-        color: var(--text-color-default);
-    }
+  &__btn {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 35px;
+    min-width: 140px;
+    border-radius: 5px;
+    box-shadow: var(--clr-box-shadow);
+    color: var(--text-color-default);
+    background-color: var(--components-background-default);
+  }
 
-    &__item + &__item {
-        margin-left: 15px;
-    }
+  &__item + &__item {
+    margin-left: 15px;
+  }
 }

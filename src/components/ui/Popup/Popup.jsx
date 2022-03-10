@@ -1,5 +1,8 @@
-import {ThisDayInfoList} from "../../common/ThisDayInfoList/ThisDayInfoList"
-import {GlobalSvgSelector} from "../../../images/GlobalSvgSelector"
+// Common
+import {ThisDayInfoList} from "../../common/";
+
+// Images
+import {GlobalSvgSelector} from "../../../images/GlobalSvgSelector";
 
 export const Popup = () => {
   const items = [

@@ -1,6 +1,9 @@
+// React
 import {BrowserRouter} from "react-router-dom";
-import {Header} from "./components/common/Header/Header";
-import {Footer} from "./components/common/Footer/Footer";
+
+// Common
+import {Header, Footer} from "./components/common/";
+
 import {AppRoutes} from "./routes/AppRoutes";
 import {ThemeProvider} from './provider/ThemeProvider';
 

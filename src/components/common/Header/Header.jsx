@@ -1,6 +1,12 @@
-import {Container} from "../../ui/Container/Container";
 import Select from 'react-select'
+
+// UI
+import {Container} from "../../ui/";
+
+// Images
 import {GlobalSvgSelector} from "../../../images/GlobalSvgSelector";
+
+// Theme
 import {Theme} from '../../../context/ThemeContext';
 import {useTheme} from '../../../hooks/useTheme';
 
