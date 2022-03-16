@@ -1,4 +1,4 @@
-import {DaysSvgSelector} from "../../../../../images/DaysSvgSelector";
+import { DaysSvgSelector } from "../../../../../images/DaysSvgSelector";
 
 export const Card = ({day}) => {
   return (
@@ -6,7 +6,7 @@ export const Card = ({day}) => {
       <div className="card__day">{day.day}</div>
       <div className="card__date">{day.day_info}</div>
       <div className="card__img">
-        <DaysSvgSelector id={day.icon_id} />
+        <DaysSvgSelector id={day.icon_id}/>
       </div>
       <div className="card__temp--day">{day.temp_day}</div>
       <div className="card__temp--night">{day.temp_day}</div>

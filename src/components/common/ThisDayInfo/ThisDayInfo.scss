@@ -45,17 +45,4 @@
     &__value {
 
     }
-
-    &__decor {
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: 0;
-
-        img {
-            width: 100%;
-            height: auto;
-            object-fit: cover;
-        }
-    }
 }

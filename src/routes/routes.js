@@ -1,6 +1,6 @@
-import {HomePage} from "../pages/HomePage/HomePage";
-import {ErrorPage} from "../pages/ErrorPage/ErrorPage";
-import {MonthStatisticsPage} from "../pages/MonthStatisticsPage/MonthStatisticsPage";
+import { HomePage } from "../pages/HomePage/HomePage";
+import { ErrorPage } from "../pages/ErrorPage/ErrorPage";
+import { MonthStatisticsPage } from "../pages/MonthStatisticsPage/MonthStatisticsPage";
 
 export const routes = [
   {path: '/home', element: <HomePage/>},

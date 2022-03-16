@@ -1,4 +1,4 @@
-import {GlobalSvgSelector} from "../../../../../images/GlobalSvgSelector";
+import { GlobalSvgSelector } from "../../../../../images/GlobalSvgSelector";
 
 export const ThisDayInfoItem = ({itemInfo}) => {
   return (

@@ -1,11 +1,11 @@
 // React
-import {BrowserRouter} from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 
 // Common
-import {Header, Footer} from "./components/common/";
+import { Header, Footer } from "./components/common/";
 
-import {AppRoutes} from "./routes/AppRoutes";
-import {ThemeProvider} from './provider/ThemeProvider';
+import { AppRoutes } from "./routes/AppRoutes";
+import { ThemeProvider } from './provider/ThemeProvider';
 
 export const App = () => {
   return (

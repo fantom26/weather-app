@@ -1,14 +1,14 @@
 import Select from 'react-select'
 
 // UI
-import {Container} from "../../ui/";
+import { Container } from "../../ui/";
 
 // Images
-import {GlobalSvgSelector} from "../../../images/GlobalSvgSelector";
+import { GlobalSvgSelector } from "../../../images/GlobalSvgSelector";
 
 // Theme
-import {Theme} from '../../../context/ThemeContext';
-import {useTheme} from '../../../hooks/useTheme';
+import { Theme } from '../../../context/ThemeContext';
+import { useTheme } from '../../../hooks/useTheme';
 
 export const Header = () => {
   const theme = useTheme();

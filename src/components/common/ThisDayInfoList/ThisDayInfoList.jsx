@@ -1,4 +1,4 @@
-import {ThisDayInfoItem} from "./components/ThisDayInfoItem/ThisDayInfoItem";
+import { ThisDayInfoItem } from "./components/ThisDayInfoItem/ThisDayInfoItem";
 
 export const ThisDayInfoList = ({items}) => {
   return (

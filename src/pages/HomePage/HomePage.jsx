@@ -1,8 +1,8 @@
 // UI
-import {Container, Popup} from "../../components/ui/";
+import { Container, Popup } from "../../components/ui/";
 
 // Common
-import {ThisDay, ThisDayInfo, Tabs, Cards} from "../../components/common/";
+import { ThisDay, ThisDayInfo, Tabs, Cards } from "../../components/common/";
 
 export const HomePage = () => {
 

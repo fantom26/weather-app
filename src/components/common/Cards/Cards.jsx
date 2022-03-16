@@ -1,4 +1,4 @@
-import {Card} from "./components/Card/Card";
+import { Card } from "./components/Card/Card";
 
 export const Cards = () => {
   const days = [

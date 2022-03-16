@@ -1,5 +1,5 @@
 // UI
-import {Container} from "../../components/ui/";
+import { Container } from "../../components/ui/";
 
 export const MonthStatisticsPage = () => {
   return (

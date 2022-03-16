@@ -40,7 +40,7 @@ export const GlobalSvgSelector = ({id}) => {
     case 'temp':
       return (
         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_2_133)">
+          <g clipPath="url(#clip0_2_133)">
             <path
               d="M15.4056 2.98156H19.1057C19.308 2.98156 19.4719 2.81759 19.4719 2.61533C19.4719 2.41308 19.308 2.24911 19.1057 2.24911H15.4056C15.2033 2.24911 15.0394 2.41308 15.0394 2.61533C15.0394 2.81759 15.2034 2.98156 15.4056 2.98156Z"
               fill="#4F667A"/>
@@ -94,7 +94,7 @@ export const GlobalSvgSelector = ({id}) => {
     case 'pressure':
       return (
         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0_5301_3)">
+          <g clipPath="url(#clip0_5301_3)">
             <path
               d="M13.1345 3.2813C12.8172 2.96405 12.3413 2.88471 11.9447 3.202C11.9447 3.202 11.8654 3.202 11.8654 3.2813C11.2309 4.07446 5.36145 11.213 5.36145 14.8615C5.36145 18.8274 8.5341 22 12.4999 22C16.4658 22 19.6384 18.8274 19.6384 14.8615C19.6384 11.213 13.769 4.07446 13.1345 3.2813Z"
               fill="url(#paint0_linear_5301_3)"/>
@@ -109,8 +109,8 @@ export const GlobalSvgSelector = ({id}) => {
           <defs>
             <linearGradient id="paint0_linear_5301_3" x1="6.908" y1="19.383" x2="18.0728" y2="8.22218"
                             gradientUnits="userSpaceOnUse">
-              <stop stop-color="#34CDFA"/>
-              <stop offset="1" stop-color="#E8D9F1"/>
+              <stop stopColor="#34CDFA"/>
+              <stop offset="1" stopColor="#E8D9F1"/>
             </linearGradient>
             <clipPath id="clip0_5301_3">
               <rect width="19" height="19" fill="white" transform="translate(3 3)"/>
@@ -170,8 +170,8 @@ export const GlobalSvgSelector = ({id}) => {
           <defs>
             <linearGradient id="paint0_linear_2_179" x1="60.023" y1="31.275" x2="60.023" y2="87.9878"
                             gradientUnits="userSpaceOnUse">
-              <stop stop-color="#FFC227"/>
-              <stop offset="1" stop-color="#FFB300"/>
+              <stop stopColor="#FFC227"/>
+              <stop offset="1" stopColor="#FFB300"/>
             </linearGradient>
           </defs>
         </svg>

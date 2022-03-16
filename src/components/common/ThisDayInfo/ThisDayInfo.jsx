@@ -1,5 +1,4 @@
-import cloud from "../../../images/cloud.png"
-import {ThisDayInfoList} from "../ThisDayInfoList/ThisDayInfoList";
+import { ThisDayInfoList } from "../ThisDayInfoList/ThisDayInfoList";
 
 export const ThisDayInfo = () => {
   const items = [
@@ -27,9 +26,6 @@ export const ThisDayInfo = () => {
 
   return (
     <div className="thisDayInfo">
-      <div className="thisDayInfo__decor">
-        <img src={cloud} alt="Облако"/>
-      </div>
       <ThisDayInfoList items={items}/>
     </div>
   );
